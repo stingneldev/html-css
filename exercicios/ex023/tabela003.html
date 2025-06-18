@@ -27,7 +27,9 @@
 <body>
     <h1>Mesclagem de Cédulas</h1>
 
-    <!-- Para mesclar a cedula basta colocar colspan dentro da tag td -->
+    <!-- Para mesclar a coluna basta colocar colspan dentro da tag td -->
+
+    <!-- Para mesclar a linha basta colocar rowspan dentro da tag td -->
 
     <table>
         <tr>
@@ -36,19 +38,15 @@
 
         </tr>
         <tr>
-            <td>D</td>
+            <td rowspan="3">D</td>
             <td>E</td>
-            <td>F</td>
+            <td rowspan="2">F</td>
         </tr>
         <tr>
-            <td>G</td>
             <td>H</td>
-            <td>I</td>
         </tr>
         <tr>
-            <td>J</td>
-            <td>K</td>
-            <td>L</td>
+            <td colspan="2">L</td>
         </tr>
     </table>
 </body>
