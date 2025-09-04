@@ -13,8 +13,8 @@
         width: 95vw;
         border: 2px solid black;
         height: 400px;
-
-       } 
+        background-color: rgb(0, 170, 255);
+       }
     </style>
 </head>
 <body>
@@ -29,7 +29,8 @@
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vitae, harum, natus cum aliquid molestias error hic nobis, facere excepturi tempora est vel eligendi aut provident neque nesciunt commodi quibusdam?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor molestias accusantium iste fugiat, natus qui numquam dolores voluptatum iure ad nobis officiis tenetur porro, dolore cupiditate. Omnis iure voluptatibus necessitatibus.</p>
 
-    <iframe id="tela" name="frame" src="">
+    <!--Para usar html em um iframe basta trocar o src para srcdoc-->
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p> Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, commodi. Ab, perferendis vero! At, ratione. Unde atque veniam dolores. Fugiat libero qui ea quia, repellat adipisci possimus et animi beatae!Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p><img src='imagens/Logo-Colmaq.png'>">
         <p>Infelizmente seu navegador não é compatível com isso.</p>
     </iframe>
     <p>
